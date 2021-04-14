@@ -1,4 +1,4 @@
-package boostcourse1
+package boostcourse1.chapter2
 
 fun main() {
     var num: Double = 0.1
@@ -6,5 +6,5 @@ fun main() {
     for (x in 0..999) {
         num += 0.1
     }
-    println("num = $num")
+    println("num = $num") // 100.09999999999859
 }
