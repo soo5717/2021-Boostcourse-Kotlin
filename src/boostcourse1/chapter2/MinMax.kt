@@ -1,10 +1,10 @@
 package boostcourse1.chapter2
 
 fun main() {
-    println("Byte min: " + Byte.MIN_VALUE + " max: " + Byte.MAX_VALUE)
-    println("Short min: " + Short.MIN_VALUE + " max: " + Short.MAX_VALUE)
-    println("Int min: " + Int.MIN_VALUE + " max: " + Int.MAX_VALUE)
-    println("Long min: " + Long.MIN_VALUE + " max: " + Long.MAX_VALUE)
-    println("Float min: " + Float.MIN_VALUE + " max: " + Float.MAX_VALUE)
-    println("Double min: " + Double.MIN_VALUE + " max: " + Double.MAX_VALUE)
+    println("Byte: ${Byte.MIN_VALUE}~${Byte.MAX_VALUE}")
+    println("Short: ${Short.MIN_VALUE}~${Short.MAX_VALUE}")
+    println("Int: ${Int.MIN_VALUE}~${Int.MAX_VALUE}")
+    println("Long: ${Long.MIN_VALUE}~${Long.MAX_VALUE}")
+    println("Float: ${Float.MIN_VALUE}~${Float.MAX_VALUE}")
+    println("Double: ${Double.MIN_VALUE}~${Double.MAX_VALUE}")
 }
