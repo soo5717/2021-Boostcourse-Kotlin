@@ -1,5 +1,6 @@
-package boostcourse1.chapter4
+package boostcourse1.chapter4.section2
 
+// 여기 헷갈리는 부분이니까 잘 보기!
 fun main() {
     val result = callByName(otherLambda) // 람다식 이름으로 호출
     println(result)

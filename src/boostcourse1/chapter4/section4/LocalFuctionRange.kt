@@ -1,4 +1,4 @@
-package boostcourse1.chapter4
+package boostcourse1.chapter4.section4
 
 fun a() = b() // 최상위 함수이므로 b()함수 선언 위치에 상관 없이 사용 가능
 fun b() = println("b") // b()함수의 선언

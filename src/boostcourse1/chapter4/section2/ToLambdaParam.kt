@@ -1,4 +1,4 @@
-package boostcourse1.chapter4
+package boostcourse1.chapter4.section2
 
 fun main() {
     twoLambda({ a, b -> "First $a $b" }, {"Second $it"})

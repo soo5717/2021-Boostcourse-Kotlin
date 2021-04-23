@@ -1,4 +1,4 @@
-package boostcourse1.chapter4
+package boostcourse1.chapter4.section3
 
 fun main() {
     val source = "Hello World!"

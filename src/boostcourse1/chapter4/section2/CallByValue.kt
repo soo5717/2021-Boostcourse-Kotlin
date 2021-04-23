@@ -1,4 +1,4 @@
-package boostcourse1.chapter4
+package boostcourse1.chapter4.section2
 
 fun main() {
     val result = callByValue(lambda()) // 람다식 함수를 호출
