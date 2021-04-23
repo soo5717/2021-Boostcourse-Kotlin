@@ -1,4 +1,4 @@
-package boostcourse1.chapter2
+package boostcourse1.chapter2.section1
 
 fun main() {
     var str1: String = "Hello"

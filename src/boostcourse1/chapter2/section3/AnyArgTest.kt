@@ -1,4 +1,4 @@
-package boostcourse1.chapter2
+package boostcourse1.chapter2.section3
 
 fun main() {
     checkArg("Hello") // 문자열을 인자로 넣음

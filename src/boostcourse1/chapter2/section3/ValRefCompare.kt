@@ -1,4 +1,4 @@
-package boostcourse1.chapter2
+package boostcourse1.chapter2.section3
 
 // 헷갈릴 수 있는 부분이니까 슬라이드 참조해서 이해하기 P29
 fun main() {

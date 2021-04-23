@@ -1,4 +1,4 @@
-package boostcourse1.chapter2
+package boostcourse1.chapter2.section4
 
 fun main() {
     val x = 4 // 0100(2) 4(10)

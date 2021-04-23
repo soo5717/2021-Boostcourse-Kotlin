@@ -1,4 +1,4 @@
-package boostcourse1.chapter2
+package boostcourse1.chapter2.section4
 
 fun main() {
     var a: Any = 1 // Any => Int

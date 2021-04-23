@@ -1,4 +1,4 @@
-package boostcourse1.chapter2
+package boostcourse1.chapter2.section3
 
 fun main() {
     var test: Number = 12.2 // Float 스마트 캐스트

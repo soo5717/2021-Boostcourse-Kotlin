@@ -1,4 +1,4 @@
-package boostcourse1.chapter2
+package boostcourse1.chapter2.section1
 
 fun main() {
     val username1: String = "Kildong" //상수
