@@ -1,4 +1,4 @@
-package boostcourse1.chapter3
+package boostcourse1.chapter3.section1
 
 // 모두 같은 기능이지만 아래로 갈 수록 간략화 시킴
 fun sum1(a: Int = 2, b: Int = 5): Int { // Default 설정 가능!

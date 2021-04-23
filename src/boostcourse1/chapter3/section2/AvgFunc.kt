@@ -1,4 +1,4 @@
-package boostcourse1.chapter3
+package boostcourse1.chapter3.section2
 
 fun avgFunc(initial: Float = 0f, vararg numbers: Float): Double {
     var result = 0f

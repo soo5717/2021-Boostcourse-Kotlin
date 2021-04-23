@@ -1,4 +1,4 @@
-package boostcourse1.chapter3
+package boostcourse1.chapter3.section1
 
 fun normalVarargs(vararg a: Int) { // 가변 인자
     for (num in a) {

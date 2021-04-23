@@ -1,4 +1,4 @@
-package boostcourse1.chapter3
+package boostcourse1.chapter3.section3
 
 fun highFunc1(sum: (Int, Int) -> Int, a: Int, b: Int): Int = sum(a, b) // sum 매개변수는 함수
 
