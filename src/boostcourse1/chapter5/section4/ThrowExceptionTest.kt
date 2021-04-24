@@ -1,4 +1,4 @@
-package boostcourse1.chapter5
+package boostcourse1.chapter5.section4
 
 fun main() {
     var amount = 600

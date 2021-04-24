@@ -1,4 +1,4 @@
-package boostcourse1.chapter5
+package boostcourse1.chapter5.section3
 
 fun main() {
     for(i in 1..5) {

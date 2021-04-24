@@ -1,4 +1,4 @@
-package boostcourse1.chapter5
+package boostcourse1.chapter5.section4
 
 fun main() {
     val a = 6
