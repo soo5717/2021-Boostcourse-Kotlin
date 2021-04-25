@@ -1,6 +1,5 @@
-package boostcourse1.chapter6
+package boostcourse1.chapter6.section8
 
-import java.io.File
 import java.io.FileOutputStream
 import java.io.PrintWriter
 fun main() {

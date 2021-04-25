@@ -1,9 +1,10 @@
-package boostcourse1.chapter6
+package boostcourse1.chapter6.section3
 
 fun main() {
     val score: Int? = 32
-    //var score = null
-// 일반적인 null 검사
+//    var score = null
+
+    // 일반적인 null 검사
     fun checkScore() {
         if (score != null) {
             println("Score: $score")
