@@ -1,5 +1,6 @@
-package boostcourse2.chapter2
+package boostcourse2.chapter2.section1
 
+// 임시적인 매개변수 (관용적으로 _를 접두사로 함)
 class User(_id: Int, _name: String, _age: Int) {
     // 프로퍼티
     val id: Int = _id
