@@ -4,6 +4,7 @@ package boostcourse2.chapter2.section1
 class User(_id: Int, _name: String, _age: Int) {
     // 프로퍼티
     val id: Int = _id
+        // id를 호출하면 getter가 작동해서 무한 재귀에 빠지니까 이를 방지하기 위해서 field 사용
         get() = field
     var name: String = _name
         get() = field
@@ -12,8 +13,8 @@ class User(_id: Int, _name: String, _age: Int) {
         }
     var age: Int = _age
         get() = field
-        set(value) {
-            field = value
+        set(value) { // 커스텀 세터
+            field = value + 10
         }
 }
 fun main() {
