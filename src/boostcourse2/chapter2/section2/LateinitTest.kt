@@ -1,7 +1,7 @@
-package boostcourse2.chapter2
+package boostcourse2.chapter2.section2
 
 class Person {
-    lateinit var name: String // ① 늦은 초기화를 위한 선언
+    lateinit var name: String // ① 늦은 초기화를 위한 선언 (var만 가능)
     fun test() {
         if(!::name.isInitialized) { // ② 프로퍼티의 초기화 여부 판단
             println("not initialized")
@@ -10,6 +10,7 @@ class Person {
         }
     }
 }
+
 fun main() {
     val kildong = Person()
     kildong.test()
