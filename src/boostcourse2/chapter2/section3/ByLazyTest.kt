@@ -1,4 +1,4 @@
-package boostcourse2.chapter2
+package boostcourse2.chapter2.section3
 
 class LazyTest {
     init {
