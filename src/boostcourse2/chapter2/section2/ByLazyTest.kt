@@ -1,9 +1,10 @@
-package boostcourse2.chapter2.section3
+package boostcourse2.chapter2.section2
 
 class LazyTest {
     init {
         println("init block") // ②
     }
+    // val 프로퍼티
     val subject by lazy {
         println("lazy initialized") // ⑥
         "Kotlin Programming" // ⑦ lazy 반환값
