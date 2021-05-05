@@ -1,4 +1,4 @@
-package boostcourse2.chapter3
+package boostcourse2.chapter3.section1
 
 abstract class Vehicle(val name: String, val color: String, val weight: Double) {
     // 추상 프로퍼티 (반드시 하위 클래스에서 재정의해 초기화해야 함)
