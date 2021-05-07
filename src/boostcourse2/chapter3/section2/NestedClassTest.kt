@@ -1,4 +1,4 @@
-package boostcourse2.chapter3
+package boostcourse2.chapter3.section2
 
 class Outer {
     val ov = 5
@@ -11,6 +11,7 @@ class Outer {
         println("[Outer]: $msg, ${Nested().nv}") // 중첩 클래스의 프로퍼티 접근
     }
 }
+
 fun main() {
 // static 처럼 Outer의 객체 생성 없이 Nested객체를 생성 사용할 수 있음
     val output = Outer.Nested().greeting()

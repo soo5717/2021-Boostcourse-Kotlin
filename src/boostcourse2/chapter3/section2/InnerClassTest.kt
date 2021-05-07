@@ -1,4 +1,4 @@
-package boostcourse2.chapter3
+package boostcourse2.chapter3.section2
 
 class Smartphone(val model: String) {
     private val cpu = "Exynos"
@@ -6,6 +6,7 @@ class Smartphone(val model: String) {
         fun getInfo() = "${model}: Installed on $cpu with ${size}Gb" // 바깥 클래스의 프로퍼티 접근
     }
 }
+
 fun main() {
     val mySdcard = Smartphone("S7").ExternalStorage(32)
     println(mySdcard.getInfo())
