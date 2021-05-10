@@ -1,4 +1,4 @@
-package boostcourse2.chapter5
+package boostcourse2.chapter5.section1
 
 fun main() {
     var names: List<String> = listOf("one", "two", "three")
