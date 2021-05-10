@@ -1,4 +1,4 @@
-package boostcourse2.chapter5
+package boostcourse2.chapter5.section2
 
 fun main() {
     val mixedTypesSet = setOf("Hello", 5, "world", 3.14, 'c') // 자료형 혼합 초기화

@@ -1,9 +1,9 @@
-package boostcourse2.chapter5
+package boostcourse2.chapter5.section1
 
 import java.util.*
 
 fun main() {
-// 가변형 List를 생성하고 자바의 ArrayList로 반환
+    // 가변형 List를 생성하고 자바의 ArrayList로 반환
     val stringList: ArrayList<String> = arrayListOf<String>("Hello", "Kotlin", "Wow")
     stringList.add("Java") // 추가
     stringList.remove("Hello") // 삭제

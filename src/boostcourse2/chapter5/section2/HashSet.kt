@@ -1,4 +1,4 @@
-package boostcourse2.chapter5
+package boostcourse2.chapter5.section2
 
 fun main() {
     val intsHashSet: HashSet<Int> = hashSetOf(6, 3, 4, 7) // 불변성 기능이 없음
